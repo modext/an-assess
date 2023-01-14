@@ -1,6 +1,8 @@
 import React from "react";
 import { object, func } from "prop-types";
 
+// THE INITIAL CODE BEFORE I REFACTORED IS COMMENTED OUT BELOW  
+
 export class ContactForm extends React.Component {
   static defaultProps = {
     data: {
