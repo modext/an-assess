@@ -37,11 +37,11 @@ export class ContactForm extends React.Component {
    * When form is submitted forward contact data to parent
    * @param {event} DOMEvent
    */
-  handleSubmit(event) {
-    event.preventDefault();
-    console.log(this.props.data);
-    this.props.onSubmit(this.props.data);
-  }
+  // handleSubmit(event) {
+  //   event.preventDefault();
+  //   console.log(this.props.data);
+  //   this.props.onSubmit(this.props.data);
+  // }
 
 fieldChange=(event)=>{
     let target = event.target;
